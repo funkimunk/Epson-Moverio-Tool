@@ -1,0 +1,7 @@
+C:\Users\joera\source\repos\Epson3DSwitcher\Epson3DSwitcher\bin\Release\Epson3DSwitcher.exe.config
+C:\Users\joera\source\repos\Epson3DSwitcher\Epson3DSwitcher\bin\Release\Epson3DSwitcher.exe
+C:\Users\joera\source\repos\Epson3DSwitcher\Epson3DSwitcher\bin\Release\Epson3DSwitcher.pdb
+C:\Users\joera\source\repos\Epson3DSwitcher\Epson3DSwitcher\obj\Release\Epson3DSwitcher.csprojAssemblyReference.cache
+C:\Users\joera\source\repos\Epson3DSwitcher\Epson3DSwitcher\obj\Release\Epson3DSwitcher.csproj.CoreCompileInputs.cache
+C:\Users\joera\source\repos\Epson3DSwitcher\Epson3DSwitcher\obj\Release\Epson3DSwitcher.exe
+C:\Users\joera\source\repos\Epson3DSwitcher\Epson3DSwitcher\obj\Release\Epson3DSwitcher.pdb
