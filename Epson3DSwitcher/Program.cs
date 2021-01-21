@@ -59,7 +59,7 @@ namespace Epson3DSwitcher
 
             if(bCommandSet && bPortSet) { 
 
-                SerialPort serialPort = new SerialPort("COM5", 9600);
+                SerialPort serialPort = new SerialPort("COM"+ comTarget, 9600);
 
                 try
                 {
