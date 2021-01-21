@@ -1,9 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO.Ports;
+using System.Threading;
+using RJCP.IO.Ports;
 
 namespace Epson3DSwitcher
 {
@@ -57,14 +59,15 @@ namespace Epson3DSwitcher
             }
 
 
-            if(bCommandSet && bPortSet) { 
-
-                SerialPort serialPort = new SerialPort("COM"+ comTarget, 9600);
+            if(bCommandSet && bPortSet) {
+ 
+                var serialPort = new SerialPortStream("COM" + comTarget);
 
                 try
                 {
                     Console.WriteLine("Opening COM"+ comTarget);
-                    serialPort.Open();
+                    serialPort.OpenDirect();
+
                     Console.WriteLine("Sending " + comCommand);
                     serialPort.WriteLine(comCommand);
 
